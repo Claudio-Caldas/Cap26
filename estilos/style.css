@@ -1,1 +1,17 @@
 @charset "UTF-8";
+
+/* 
+
+Paleta de cores
+
+cor 1 : #8e8e1a
+cor 2 : #cebf85
+cor 3: #70760A
+
+*/
+
+* {
+    margin: 0px;
+    padding:0px;
+}
+
