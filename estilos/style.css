@@ -36,14 +36,15 @@ section#login {
     position: absolute;
     top:50% ;
     left:50% ;
-    transform: translate(-50%, -50%);
+    
     width: 330px;
     height: 550px;
     margin: auto;
     border-radius: 20px;
     background-color:white; 
     overflow: hidden;
-    box-shadow: 0px 0px 10px #8e8e1a ;  
+    box-shadow: 0px 0px 10px #8e8e1a ; 
+    transform: translate(-50%, -50%); 
     transition: width .2s , height .2s; 
     transition-timing-function: ease;
 }
@@ -66,6 +67,7 @@ section#login > div#formulario {
 div#formulario > h1 {
 
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
     color:#414406;
 }
