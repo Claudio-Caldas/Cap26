@@ -9,6 +9,7 @@ cor 2 : #cebf85
 cor 3: #70760A
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&');
 
 * {
     margin: 0px;
@@ -66,18 +67,73 @@ div#formulario > h1 {
 
     text-align: center;
     margin-bottom: 10px;
+    color:#414406;
 }
 
 div#formulario > p {
 
     font-size: .8em;
+    margin-bottom: 20px;
+    color:#414406;
 }
 
-footer p {
+div.campo {
 
+    color:#70760A;
+   
+}
+
+div.campo > span  {
+
+    margin-right: 5px;
+   
+}
+
+form > input[type=submit] {
+
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    background-color:#cac19c93;
+    color:#70760A ;
+    text-shadow:1px 1px 2px black ;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+form > input[type=submit]:hover {
+
+    background-color:#70760A ;
+    color:#cac19c93;
+    
+}
+
+form > a {
+
+    display: block;
     text-align: center;
-    font-size: .83em;
+    font-size: 1em;
+    width: 100%;
+    height:30px;
+    padding-top: 5px;
+    color:#414406;
+    text-decoration: none;
+    
+   
+
 }
+
+form > a > span.material-symbols-outlined {
+
+    font-size: 1.2em;
+}
+
+
 footer {
     position: sticky;
     bottom:0px;
@@ -87,4 +143,32 @@ footer {
     
     border-radius: 10px 10px 0px 0px;
 }
+
+footer p {
+
+    text-align: center;
+    font-size: .83em;
+    padding: 5px 0px;
+}
+
+footer > p >  a {
+
+    font-family: "Kalam", cursive;
+    font-size: 1em;
+    color: #cac19c93;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+
+    background-color: #cac19c93;
+    color:#70760A;
+    transition: .5s;
+    border-radius:5px ;
+    text-decoration: underline;
+    font-size: 1.2em;
+    
+}
+
+
 
