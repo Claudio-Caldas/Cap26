@@ -80,14 +80,26 @@ div#formulario > p {
 div.campo {
 
     color:#70760A;
+    
    
+}
+
+div.campo > input {
+
+    transform: translateY(-10px);
 }
 
 div.campo > span  {
 
     margin-right: 5px;
+    background-color:#cac19c93 ;
+    font-size: 2em;
+    border-radius: 5px;
+    
+    
    
 }
+
 
 form > input[type=submit] {
 
@@ -100,7 +112,6 @@ form > input[type=submit] {
     padding-bottom: 5px;
     background-color:#cac19c93;
     color:#70760A ;
-    text-shadow:1px 1px 2px black ;
     border: none;
     border-radius: 5px;
     cursor:pointer;
@@ -109,7 +120,8 @@ form > input[type=submit] {
 form > input[type=submit]:hover {
 
     background-color:#70760A ;
-    color:#cac19c93;
+    color:white;
+    text-shadow: 1px 1px 3px black;
     
 }
 
@@ -131,44 +143,11 @@ form > a {
 form > a > span.material-symbols-outlined {
 
     font-size: 1.2em;
-}
-
-
-footer {
-    position: sticky;
-    bottom:0px;
-    background-color:#70760A ;
-    color: #cac19c93;
-    margin: auto;
-    
-    border-radius: 10px 10px 0px 0px;
-}
-
-footer p {
-
-    text-align: center;
-    font-size: .83em;
-    padding: 5px 0px;
-}
-
-footer > p >  a {
-
-    font-family: "Kalam", cursive;
-    font-size: 1em;
-    color: #cac19c93;
-    text-decoration: none;
-}
-
-footer > p > a:hover {
-
-    background-color: #cac19c93;
-    color:#70760A;
-    transition: .5s;
-    border-radius:5px ;
-    text-decoration: underline;
-    font-size: 1.2em;
     
 }
+
+
+
 
 
 
